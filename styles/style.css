@@ -1,0 +1,25 @@
+div.gallery-entry{
+    margin: 100px;
+    text-align: center;
+}
+
+div.gallery-entry img{
+    max-width: 300px;
+    max-height: 300px;
+}
+
+div.gallery-entry div{
+    background-color: #4286f4;
+    text-align: center;
+}
+
+div.gallery-entry div a{
+    color: white;
+    font-size: 48px;
+    font-style: bold;
+    text-decoration: none;
+}
+
+div.gallery-entry div a:hover{
+    text-decoration: none;
+}
