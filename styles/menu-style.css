@@ -1,6 +1,4 @@
- /* Dropdown menu
- */
- nav {
+nav {
     display: inline-block;
     float: right;
 }
@@ -37,6 +35,18 @@ nav i{
     margin-right: 10px;
 }
 
+nav ul{
+    padding: 0px;
+    margin: 0px;
+}
+
+
+nav li{
+    list-style-type: none;
+    padding-left: 48px;
+    display: block;
+}
+
 .menu-content a.active{
     color: white;
     background-color:  black;
@@ -46,6 +56,7 @@ nav i{
 
 nav:hover .menu-content {
     display: block;
+    animation: gallery-menu-dropdown-animation;
 }
 
 nav:hover .menu-button {
@@ -53,50 +64,80 @@ nav:hover .menu-button {
     color: white;
 }
 
-/*Navigation Bar
-nav{
-    background-color: #4286f4; 
-    
-}
-
-nav p{
-    color: white;
-}
-
-nav ul{
-    margin: 0px;
-    padding: 0px;
-    text-align: center;
-}
-
-nav ul li{
-    display: inline-block;
-    padding: 10px 20px;
-}
-
-nav ul li i{
-    margin-right: 10px;
-}
-
-nav ul li a{
-    text-decoration: none;
-    color: white;
-    margin: 10px 10px;
-    font-size: 18px;
-}
-
-nav ul li.active a:hover{
-    color: gray;
-}
-
-a:hover{
-    text-decoration: none;
-    color: #304dc1;
-}
-
-.active{
-    background-color:  #304dc1;
-}
-
-*/
-
+nav:hover .menu-content, nav:hover li{
+    animation: gallery-menu-dropdown-animation ease 1s;
+    animation-iteration-count: 1;
+    transform-origin: 50% 50%;
+    animation-fill-mode:forwards; /*when the spec is finished*/
+    -webkit-animation: gallery-menu-dropdown-animation ease 1s;
+    -webkit-animation-iteration-count: 1;
+    -webkit-transform-origin: 50% 50%;
+    -webkit-animation-fill-mode:forwards; /*Chrome 16+, Safari 4+*/ 
+    -moz-animation: gallery-menu-dropdown-animation ease 1s;
+    -moz-animation-iteration-count: 1;
+    -moz-transform-origin: 50% 50%;
+    -moz-animation-fill-mode:forwards; /*FF 5+*/
+    -o-animation: gallery-menu-dropdown-animation ease 1s;
+    -o-animation-iteration-count: 1;
+    -o-transform-origin: 50% 50%;
+    -o-animation-fill-mode:forwards; /*Not implemented yet*/
+    -ms-animation: gallery-menu-dropdown-animation ease 1s;
+    -ms-animation-iteration-count: 1;
+    -ms-transform-origin: 50% 50%;
+    -ms-animation-fill-mode:forwards; /*IE 10+*/
+  }
+  
+  @keyframes gallery-menu-dropdown-animation{
+    0% {
+      opacity:0;
+      transform:  translate(0px,-25px)  ;
+    }
+    100% {
+      opacity:1;
+      transform:  translate(0px,0px)  ;
+    }
+  }
+  
+  @-moz-keyframes gallery-menu-dropdown-animation{
+    0% {
+      opacity:0;
+      -moz-transform:  translate(0px,-25px)  ;
+    }
+    100% {
+      opacity:1;
+      -moz-transform:  translate(0px,0px)  ;
+    }
+  }
+  
+  @-webkit-keyframes gallery-menu-dropdown-animation {
+    0% {
+      opacity:0;
+      -webkit-transform:  translate(0px,-25px)  ;
+    }
+    100% {
+      opacity:1;
+      -webkit-transform:  translate(0px,0px)  ;
+    }
+  }
+  
+  @-o-keyframes gallery-menu-dropdown-animation {
+    0% {
+      opacity:0;
+      -o-transform:  translate(0px,-25px)  ;
+    }
+    100% {
+      opacity:1;
+      -o-transform:  translate(0px,0px)  ;
+    }
+  }
+  
+  @-ms-keyframes gallery-menu-dropdown-animation {
+    0% {
+      opacity:0;
+      -ms-transform:  translate(0px,-25px)  ;
+    }
+    100% {
+      opacity:1;
+      -ms-transform:  translate(0px,0px)  ;
+    }
+  }
