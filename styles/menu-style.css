@@ -1,11 +1,13 @@
-nav {
+ /* Dropdown menu
+ */
+ nav {
     display: inline-block;
     float: right;
 }
 
 nav .menu-button {
-    background-color: #4286f4;
-    color: white;
+    background-color: white;
+    color: black;
     padding: 16px;
     font-size: 16px;
     border: none;
@@ -37,16 +39,22 @@ nav i{
 
 .menu-content a.active{
     color: white;
-    background-color:  #4286f4;
+    background-color:  black;
 }
 
 .menu-content a:hover {background-color: #ddd;}
 
-nav:hover .menu-content {display: block;}
+nav:hover .menu-content {
+    display: block;
+}
 
-nav:hover .menu-button {background-color: #3075e5;}  
+nav:hover .menu-button {
+    background-color: black;
+    color: white;
+}
 
-/*nav{
+/*Navigation Bar
+nav{
     background-color: #4286f4; 
     
 }
@@ -88,5 +96,7 @@ a:hover{
 
 .active{
     background-color:  #304dc1;
-}*/
+}
+
+*/
 

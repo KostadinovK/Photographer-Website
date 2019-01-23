@@ -6,8 +6,7 @@ div.gallery-entry{
 }
 
 div.gallery-entry img {
-    width: 400px;
-    height: 400px;
+    
     opacity: 1;
     transition: .5s ease;
     backface-visibility: hidden;
