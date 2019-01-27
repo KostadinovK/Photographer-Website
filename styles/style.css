@@ -10,25 +10,29 @@ div.gallery-entry img {
     opacity: 1;
     transition: .5s ease;
     backface-visibility: hidden;
+    width: 850px;
+    height: 550px;
 }
 
 .gallery-entry-caption {
     transition: .5s ease;
     opacity: 0;
     position: absolute;
-    top: 50%;
+    top: 94%;
     left: 50%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     text-align: center;
+    width: 64.5%;
 }
 
 .gallery-entry-caption a {
-    background-color: #4286f4;
+    background-color: black;
     color: white;
     font-size: 36px;
     padding: 16px 32px;
     display: block;
+    
 }
 
 .gallery-entry:hover img {
