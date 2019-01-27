@@ -1,5 +1,5 @@
 body{
-    background-color: #CCFCFE
+    background-color: white;
 }
 
 div.section-entry-image{
@@ -14,7 +14,7 @@ div.section-entry-image img {
     opacity: 1;
     transition: .5s ease;
     backface-visibility: hidden;
-    width: 70%;
+    width: 60%;
     height: 50%;
 }
 
@@ -27,7 +27,7 @@ div.section-entry-image img {
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     text-align: center;
-    width: 64.5%;
+    width: 63%;
 }
 
 .section-entry-caption a {
