@@ -11,7 +11,6 @@ div.section-entry-image{
 }
 
 div.section-entry-image img {
-    
     opacity: 1;
     transition: .5s ease;
     backface-visibility: hidden;
@@ -62,7 +61,7 @@ img:hover a {
 div.card-deck{
     display: flex;
     justify-content: space-evenly;
-    padding: 20px;
+    padding: 40px;
 }
 
 div.card{
@@ -75,6 +74,7 @@ div.card{
 div.card-body{
     background-color: #D57368;
     margin: 0px;
+    max-width: 400px;
 }
 
 div.card-body a{
@@ -194,5 +194,13 @@ div.card-deck, div.section-entry-image{
     100% {
       opacity:1;
       -ms-transform:  translate(0px,0px)  ;
+    }
+  }
+
+  /* Media CSS */
+
+  @media only screen and (max-width: 600px) {
+    div.card-deck{
+        padding: 0px;
     }
   }
