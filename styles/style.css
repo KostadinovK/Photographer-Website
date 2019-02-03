@@ -65,8 +65,11 @@ div.card-deck{
     padding: 20px;
 }
 
-#second{
-    margin-bottom: 800px;
+div.card{
+    max-width: 400px;
+    max-height: 400px;
+    overflow: hidden;
+    margin: 20px;
 }
 
 div.card-body{
@@ -83,11 +86,6 @@ div.card-body a{
     text-decoration: none;
 }
 
-div.card{
-    max-width: 300px;
-    max-height: 300px;
-    overflow: hidden;
-}
 
 img.card-img-top{
     overflow: hidden;
