@@ -69,6 +69,8 @@ div.card{
     max-height: 400px;
     overflow: hidden;
     margin: 20px;
+    box-shadow: 10px 10px 8px 10px #ddd;
+    position: relative;
 }
 
 div.card-body{
@@ -89,6 +91,16 @@ div.card-body a{
 
 img.card-img-top{
     overflow: hidden;
+}
+/* Gallery -> Categories Hover effects*/
+
+div.card-body:hover a{
+    color: #D57368;
+    background-color: white;
+}
+
+div.card-body:hover{
+    background-color: white;
 }
 
 /*Footer*/
