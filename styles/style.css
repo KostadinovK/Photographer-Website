@@ -88,9 +88,23 @@ div.card-body a{
     text-decoration: none;
 }
 
+div.developer-info{
+    position: absolute;
+    padding: 20px;
+}
+
+div.developer-info p{
+    color: #D57368;
+    font-size: 36px;
+}
+
+div.developer-info a{
+    color: #D57368;
+}
 
 img.card-img-top{
     overflow: hidden;
+    z-index: 1;
 }
 /* Gallery -> Categories Hover effects*/
 

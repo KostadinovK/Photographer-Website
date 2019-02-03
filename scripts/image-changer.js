@@ -15,6 +15,16 @@ function ChangeImage(id){
         }else{
             image.src = imagePath + "2." + extension;
         }
+    }else{
+        document.getElementById(id).style.visibility = "hidden";
+        ShowDeveloperInfo();
     }
     
+}
+
+function ShowDeveloperInfo(){
+
+    let element = document.getElementsByClassName("developer-info");
+    element.style.zIndex = "2";
+
 }
