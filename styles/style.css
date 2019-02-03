@@ -65,6 +65,10 @@ div.card-deck{
     padding: 20px;
 }
 
+#second{
+    margin-bottom: 800px;
+}
+
 div.card-body{
     background-color: #D57368;
     margin: 0px;
