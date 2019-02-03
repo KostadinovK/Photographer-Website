@@ -2,7 +2,7 @@ body{
     background-color: white;
     margin: 0px;
 }
-
+/* Home -> Sections*/
 div.section-entry-image{
     margin:100px;
     text-align: center;
@@ -37,6 +37,7 @@ div.section-entry-image img {
     font-size: 36px;
     padding: 16px 32px;
     display: block;
+    text-decoration: none;
     
 }
 
@@ -57,30 +58,38 @@ img:hover a {
     opacity: 1;
     text-decoration: none;
 }
-
-div.image-categories-container{
-    margin-left: 100px;
-    margin-right:100px;
-    margin-bottom: 100px;
-    padding-top: 100px; 
-    display: inline-block;
-
+/* Gallery -> Categories*/
+div.card-deck{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
 }
 
-div.category-section-image{
-    float: left;
-    width: 33.33%;
+div.card-body{
+    background-color: #D57368;
+    margin: 0px;
 }
 
-div.category-section-image img{
-    width: 80%;
-    height: 70%;
-}
-
-div.category-section-image a{
+div.card-body a{
     color: white;
-    background: #D57368;
+    font-size: 36px;
+    margin: 0px;
+    text-align: center;
+    padding: 0px;
+    text-decoration: none;
 }
+
+div.card{
+    max-width: 300px;
+    max-height: 300px;
+    overflow: hidden;
+}
+
+img.card-img-top{
+    overflow: hidden;
+}
+
+/*Footer*/
 
 footer{
     background-color:#D57368;
@@ -108,8 +117,8 @@ footer .copyrights{
     text-align: right;
 }
 
-
-div.category-section-image{
+/* Animation */
+div.card-deck, div.section-entry-image{
     animation: gallery-menu-dropdown-animation ease 1s;
     animation-iteration-count: 1;
     transform-origin: 50% 50%;
