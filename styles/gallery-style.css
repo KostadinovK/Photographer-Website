@@ -41,11 +41,7 @@ div.gallery-grid-column img {
 }
   
 .btn:hover {
-    background-color: #ddd;
-    color: #D57368;
-}
-  
-.btn.active {
     background-color: #D57368;
     color: white;
 }
+  
