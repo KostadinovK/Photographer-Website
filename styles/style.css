@@ -130,12 +130,12 @@ footer h1{
     text-align: center;
 }
 
-footer p,a{
-    margin: 20px;
+footer a{
     color: white;
+    margin: 20px;
     font-size: 18px;
     display: block;
-    padding-left: 20px;
+    text-align: center;
 }
 
 footer a:hover{
@@ -144,5 +144,6 @@ footer a:hover{
 
 footer .copyrights{
     text-align: right;
+    color: white;
 }
 
