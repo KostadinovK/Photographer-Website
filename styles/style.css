@@ -101,6 +101,7 @@ div.developer-info p{
 
 div.developer-info a{
     color: #D57368;
+    display: block;
 }
 
 img.card-img-top{
@@ -116,6 +117,37 @@ div.card-body:hover a{
 
 div.card-body:hover{
     background-color: white;
+}
+
+/*About section */
+
+div.about-section{
+    text-align:center;
+    padding: 10%;
+}
+
+div.about-section img{
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 50px;
+}
+
+div.about-section h2{
+    color: #D57368;
+    margin: 0px;
+    font-size: 64px;
+}
+
+div.about-photographer-text-container{
+    margin-bottom: 20px;
+    padding: 10%;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+div.about-photographer-text-container p{
+    color: #D57368;
+    font-weight: 600;
 }
 
 /*Footer*/
@@ -135,15 +167,28 @@ footer a{
     margin: 20px;
     font-size: 18px;
     display: block;
-    text-align: center;
 }
 
 footer a:hover{
     text-decoration: none;
 }
 
-footer .copyrights{
+footer p{
     text-align: right;
     color: white;
 }
 
+
+/* Media CSS */
+
+@media only screen and (max-width: 600px) {
+    div.card-deck{
+        padding: 0px;
+    }
+
+    div.about-section h2{
+        color: #D57368;
+        margin: 0px;
+        font-size: 42px;
+    }
+  }

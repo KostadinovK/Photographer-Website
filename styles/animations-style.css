@@ -76,10 +76,4 @@ div.card-deck, div.section-entry-image, div.gallery-grid-row, nav:hover .menu-co
     }
   }
 
-  /* Media CSS */
-
-  @media only screen and (max-width: 600px) {
-    div.card-deck{
-        padding: 0px;
-    }
-  }
+  
