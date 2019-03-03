@@ -2,6 +2,11 @@ body{
     background-color: white;
     margin: 0px;
 }
+
+img
+{
+    border-radius: 5px; 
+}
 /* Home -> Sections*/
 div.section-entry-image{
     margin:100px;
@@ -192,3 +197,5 @@ footer p{
         font-size: 42px;
     }
   }
+
+

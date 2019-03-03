@@ -23,8 +23,10 @@
     <link rel="stylesheet" href="../styles/style.css">
     <link rel="stylesheet" href="../styles/gallery-style.css">
     <link rel="stylesheet" href="../styles/animations-style.css">
+    <link rel="stylesheet" href="../styles/zoomer-style.css">
 
     <script src="../scripts/gallery-image-displayer.js"></script>
+    <script src="../scripts/image-zoomer.js"></script>
 
 </head>
 
@@ -74,34 +76,40 @@
 
             <div class="gallery-grid-row">
                 <div class="gallery-grid-column">
-                    <img src="../images/gallery/urban/urban1.jpg" alt="urban 1">
-                    <img src="../images/gallery/urban/urban2.jpg" alt="urban 2">
-                    <img src="../images/gallery/urban/urban3.jpg" alt="urban 3">
-                    <img src="../images/gallery/urban/urban4.jpg" alt="urban 4">
-                    <img src="../images/gallery/urban/urban16.jpg" alt="urban 16">
+                    <img src="../images/gallery/urban/urban1.jpg" alt="urban 1" class="image">
+                    <img src="../images/gallery/urban/urban2.jpg" alt="urban 2" class="image">
+                    <img src="../images/gallery/urban/urban3.jpg" alt="urban 3" class="image">
+                    <img src="../images/gallery/urban/urban4.jpg" alt="urban 4" class="image">
+                    <img src="../images/gallery/urban/urban16.jpg" alt="urban 16" class="image">
                 </div>
                 <div class="gallery-grid-column">
-                    <img src="../images/gallery/urban/urban5.jpg" alt="urban 5">
-                    <img src="../images/gallery/urban/urban6.jpg" alt="urban 6">
-                    <img src="../images/gallery/urban/urban7.jpg" alt="urban 7">
-                    <img src="../images/gallery/urban/urban8.jpg" alt="urban 8">
-                    <img src="../images/gallery/urban/urban19.jpg" alt="urban 19">
+                    <img src="../images/gallery/urban/urban5.jpg" alt="urban 5" class="image">
+                    <img src="../images/gallery/urban/urban6.jpg" alt="urban 6" class="image">
+                    <img src="../images/gallery/urban/urban7.jpg" alt="urban 7" class="image">
+                    <img src="../images/gallery/urban/urban8.jpg" alt="urban 8" class="image">
+                    <img src="../images/gallery/urban/urban19.jpg" alt="urban 19" class="image">
                 </div>
                 <div class="gallery-grid-column">
-                    <img src="../images/gallery/urban/urban9.jpg" alt="urban 9">
-                    <img src="../images/gallery/urban/urban10.jpg" alt="urban 10">
-                    <img src="../images/gallery/urban/urban11.jpg" alt="urban 11">
-                    <img src="../images/gallery/urban/urban12.jpg" alt="urban 12">
-                    <img src="../images/gallery/urban/urban18.jpg" alt="urban 18">
+                    <img src="../images/gallery/urban/urban9.jpg" alt="urban 9" class="image">
+                    <img src="../images/gallery/urban/urban10.jpg" alt="urban 10" class="image">
+                    <img src="../images/gallery/urban/urban11.jpg" alt="urban 11" class="image">
+                    <img src="../images/gallery/urban/urban12.jpg" alt="urban 12" class="image">
+                    <img src="../images/gallery/urban/urban18.jpg" alt="urban 18" class="image">
                 </div>
                 <div class="gallery-grid-column">
-                    <img src="../images/gallery/urban/urban13.jpg" alt="urban 13">
-                    <img src="../images/gallery/urban/urban14.jpg" alt="urban 14">
-                    <img src="../images/gallery/urban/urban15.jpg" alt="urban 15">
-                    <img src="../images/gallery/urban/urban16.jpg" alt="urban 16">
-                    <img src="../images/gallery/urban/urban17.jpg" alt="urban 17">
+                    <img src="../images/gallery/urban/urban13.jpg" alt="urban 13" class="image">
+                    <img src="../images/gallery/urban/urban14.jpg" alt="urban 14" class="image">
+                    <img src="../images/gallery/urban/urban15.jpg" alt="urban 15" class="image">
+                    <img src="../images/gallery/urban/urban16.jpg" alt="urban 16" class="image">
+                    <img src="../images/gallery/urban/urban17.jpg" alt="urban 17" class="image">
                 </div>
             </div>
+
+            <div id="zoomerId" class="zoomer">
+                <span class="close">x</span>
+                <img class="zoomer-content" id="img">
+            </div>
+      
         </main>
     </header>
 
@@ -113,7 +121,6 @@
             &copy; 2019 &ndash; Kalina Petrova - All Rights Reserved.
         </p>
     </footer>
-
 </body>
 
 </html>

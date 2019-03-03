@@ -23,8 +23,10 @@
     <link rel="stylesheet" href="../styles/style.css">
     <link rel="stylesheet" href="../styles/gallery-style.css">
     <link rel="stylesheet" href="../styles/animations-style.css">
+    <link rel="stylesheet" href="../styles/zoomer-style.css">
 
     <script src="../scripts/gallery-image-displayer.js"></script>
+    <script src="../scripts/image-zoomer.js"></script>
 
 </head>
 
@@ -74,40 +76,46 @@
 
             <div class="gallery-grid-row">
                 <div class="gallery-grid-column">
-                    <img src="../images/gallery/portrait/wedding.jpg">
-                    <img src="../images/gallery/portrait/rocks.jpg">
-                    <img src="../images/gallery/portrait/falls2.jpg">
-                    <img src="../images/gallery/portrait/paris.jpg">
-                    <img src="../images/gallery/portrait/nature.jpg">
-                    <img src="../images/gallery/portrait/mist.jpg">
-                    <img src="../images/gallery/portrait/paris.jpg">
+                    <img src="../images/gallery/portrait/wedding.jpg" class="image">
+                    <img src="../images/gallery/portrait/rocks.jpg" class="image">
+                    <img src="../images/gallery/portrait/falls2.jpg" class="image">
+                    <img src="../images/gallery/portrait/paris.jpg" class="image">
+                    <img src="../images/gallery/portrait/nature.jpg" class="image">
+                    <img src="../images/gallery/portrait/mist.jpg" class="image">
+                    <img src="../images/gallery/portrait/paris.jpg" class="image">
                 </div>
                 <div class="gallery-grid-column">
-                    <img src="../images/gallery/portrait/underwater.jpg">
-                    <img src="../images/gallery/portrait/ocean.jpg">
-                    <img src="../images/gallery/portrait/wedding.jpg">
-                    <img src="../images/gallery/portrait/mountainskies.jpg">
-                    <img src="../images/gallery/portrait/rocks.jpg">
-                    <img src="../images/gallery/portrait/underwater.jpg">
+                    <img src="../images/gallery/portrait/underwater.jpg" class="image">
+                    <img src="../images/gallery/portrait/ocean.jpg" class="image">
+                    <img src="../images/gallery/portrait/wedding.jpg" class="image">
+                    <img src="../images/gallery/portrait/mountainskies.jpg" class="image">
+                    <img src="../images/gallery/portrait/rocks.jpg" class="image">
+                    <img src="../images/gallery/portrait/underwater.jpg" class="image">
                 </div>
                 <div class="gallery-grid-column">
-                    <img src="../images/gallery/portrait/wedding.jpg">
-                    <img src="../images/gallery/portrait/rocks.jpg">
-                    <img src="../images/gallery/portrait/falls2.jpg">
-                    <img src="../images/gallery/portrait/paris.jpg">
-                    <img src="../images/gallery/portrait/nature.jpg">
-                    <img src="../images/gallery/portrait/mist.jpg">
-                    <img src="../images/gallery/portrait/paris.jpg">
+                    <img src="../images/gallery/portrait/wedding.jpg" class="image">
+                    <img src="../images/gallery/portrait/rocks.jpg" class="image">
+                    <img src="../images/gallery/portrait/falls2.jpg" class="image">
+                    <img src="../images/gallery/portrait/paris.jpg" class="image">
+                    <img src="../images/gallery/portrait/nature.jpg" class="image">
+                    <img src="../images/gallery/portrait/mist.jpg" class="image">
+                    <img src="../images/gallery/portrait/paris.jpg" class="image">
                 </div>
                 <div class="gallery-grid-column">
-                    <img src="../images/gallery/portrait/underwater.jpg">
-                    <img src="../images/gallery/portrait/ocean.jpg">
-                    <img src="../images/gallery/portrait/wedding.jpg">
-                    <img src="../images/gallery/portrait/mountainskies.jpg">
-                    <img src="../images/gallery/portrait/rocks.jpg">
-                    <img src="../images/gallery/portrait/underwater.jpg">
+                    <img src="../images/gallery/portrait/underwater.jpg" class="image">
+                    <img src="../images/gallery/portrait/ocean.jpg" class="image">
+                    <img src="../images/gallery/portrait/wedding.jpg" class="image">
+                    <img src="../images/gallery/portrait/mountainskies.jpg" class="image">
+                    <img src="../images/gallery/portrait/rocks.jpg" class="image">
+                    <img src="../images/gallery/portrait/underwater.jpg" class="image">
                 </div>
             </div>
+
+            <div id="zoomerId" class="zoomer">
+                <span class="close">x</span>
+                <img class="zoomer-content" id="img">
+            </div>
+
         </main>
     </header>
 
