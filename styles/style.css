@@ -183,6 +183,19 @@ footer p{
     color: white;
 }
 
+/* Shop */
+.comming-soon-box{
+    background-color: #D57368;
+    max-width: 600px;
+    
+
+}
+
+.comming-soon-box p{
+    color: white;
+    font-size: 24px;
+}
+
 
 /* Media CSS */
 
